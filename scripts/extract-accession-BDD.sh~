@@ -25,9 +25,3 @@ ACC
 stop
 !
 mv query.out bacteria-archaea.out
-
-
-
-cat query-archaea.out |grep "AC   "|cut -c6- | sort > archaea-accession
-cat query-archaea.out |grep "AC   "|cut -c6- | sort > bacteria-accession
-
