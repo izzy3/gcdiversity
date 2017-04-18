@@ -10,7 +10,7 @@ ac
 
 stop
 !
-mv query.out query-archaea.out
+mv query.out data/query-archaea.out
 
 
 
@@ -24,6 +24,7 @@ ACC
 
 stop
 !
+
 mv query.out bacteria-archaea.out
 
 
